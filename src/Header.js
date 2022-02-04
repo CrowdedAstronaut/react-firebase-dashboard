@@ -1,4 +1,4 @@
-import React from "react";
+/* import React from "react";
 import { signOut } from "firebase/auth";
 import { useNavigate } from "react-router-dom";
 import { useSession } from "react-use-session";
@@ -25,3 +25,4 @@ function Header() {
 }
 
 export default Header;
+ */

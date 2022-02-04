@@ -3,7 +3,7 @@ import "./App.css";
 import "./firebase/config";
 import { Route, Routes, BrowserRouter } from "react-router-dom";
 import React from "react";
-// import Header from "./Header";
+import Header from "./Header";
 import Signup from "./pages/Signup";
 
 export default function App() {
