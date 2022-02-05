@@ -1,4 +1,23 @@
 import firebase from "firebase/compat/app";
+import { initializeApp } from "firebase/app";
+import {
+  GoogleAuthProvider,
+  getAuth,
+  signInWithPopup,
+  signInWithEmailAndPassword,
+  createUserWithEmailAndPassword,
+  sendPasswordResetEmail,
+  signOut,
+  } from "firebase/auth";
+  import {
+    getFirestore,
+    query,
+    getDocs,
+    collection,
+    where,
+    addDoc,
+  } from "firebase/firestore";
+
 
 firebase.initializeApp({
   apiKey: process.env.REACT_APP_API_KEY,

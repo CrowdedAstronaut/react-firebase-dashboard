@@ -9,7 +9,7 @@ import Signup from "./pages/Signup";
 export default function App() {
   return (
     <BrowserRouter>
-      {/* <Header></Header> */}
+      <Header></Header>
       <div className="App">
         <div className="ui grid container">
           <Routes>
